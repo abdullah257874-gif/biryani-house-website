@@ -198,10 +198,13 @@ function bindMenuButtons() {
   refs.cartBackdrop.addEventListener('click', () => toggleCart(false));
   refs.cartButton.addEventListener('click', () => toggleCart());
 
-  document.querySelector('[data-empty-state] .btn').addEventListener('click', () => {
-    document.getElementById('menu').scrollIntoView({ behavior: 'smooth' });
-    toggleCart(false);
-  });
+  const emptyBrowseButton = document.querySelector('[data-empty-state] .btn');
+  if (emptyBrowseButton) {
+    emptyBrowseButton.addEventListener('click', () => {
+      document.getElementById('menu').scrollIntoView({ behavior: 'smooth' });
+      toggleCart(false);
+    });
+  }
 }
 
 function initCounters() {
@@ -260,7 +263,6 @@ function setupCheckoutForm() {
     let valid = true;
 
     inputs.forEach((input) => {
-      const fieldName = input.name || input.getAttribute('name');
       const isRequired = input.required;
       const parent = input.closest('label');
       let errorElement = parent.querySelector('.error-text');
@@ -328,171 +330,9 @@ window.addEventListener('load', () => {
   document.body.classList.add('loaded');
 });
 
-menuItems.forEach((item) => {
-  const match = document.querySelector(`.food-card[data-menu-item="${item.name}"]`);
-  if (match) {
-    match.dataset.price = item.price;
-  }
-});
-
 window.addEventListener('resize', () => {
   if (window.innerWidth > 860) {
     refs.navLinks.classList.remove('open');
     refs.menuToggle.setAttribute('aria-expanded', 'false');
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
