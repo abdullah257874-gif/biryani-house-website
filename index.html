@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biryani House | Authentic Pakistani Chicken Biryani</title>
+    <meta
+      name="description"
+      content="Order authentic Pakistani Chicken Biryani made with fragrant basmati rice, tender chicken and traditional spices. Freshly cooked and delivered hot."
+    />
+    <meta
+      name="keywords"
+      content="Pakistani biryani, chicken biryani, Biryani House, Karachi food, biryani delivery"
+    />
+    <meta property="og:title" content="Biryani House | Authentic Pakistani Chicken Biryani" />
+    <meta
+      property="og:description"
+      content="Order authentic Pakistani Chicken Biryani made with fragrant basmati rice, tender chicken and traditional spices. Freshly cooked and delivered hot."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=1200&q=80"
+    />
+    <meta name="theme-color" content="#130d0d" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23f4b942'/%3E%3Cpath d='M20 30c0-9 6-14 12-14 7 0 12 5 12 14 0 10-6 19-12 19s-12-9-12-19Zm20 0c0-7-4-10-8-10s-8 3-8 10c0 8 4 15 8 15s8-7 8-15Zm-4 5h-8v7c0 3 2 5 4 5s4-2 4-5v-7Zm-4-18c-1 0-2 1-2 2s1 2 2 2 2-1 2-2-1-2-2-2Z' fill='%231a1515'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" id="top">
+        <nav class="container nav-bar" aria-label="Main navigation">
+          <a href="#top" class="brand" aria-label="Biryani House home">
+            <span class="brand-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" aria-hidden="true">
+                <path d="M20 30c0-9 6-14 12-14 7 0 12 5 12 14 0 10-6 19-12 19s-12-9-12-19Zm20 0c0-7-4-10-8-10s-8 3-8 10c0 8 4 15 8 15s8-7 8-15Zm-4 5h-8v7c0 3 2 5 4 5s4-2 4-5v-7Zm-4-18c-1 0-2 1-2 2s1 2 2 2 2-1 2-2-1-2-2-2Z"/>
+              </svg>
+            </span>
+            <span class="brand-text">Biryani House</span>
+          </a>
+
+          <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-links" id="navLinks">
+            <a href="#top">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#why-us">Why Us</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <div class="header-actions">
+            <button class="btn btn-primary btn-small" type="button" data-scroll="menu">Order Now</button>
+            <button class="cart-button" type="button" aria-label="Cart" data-cart-toggle>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 4h2l2.5 9.5a1 1 0 0 0 1 .8h8.7a1 1 0 0 0 1-.8L19 7H7"/>
+                <circle cx="10" cy="18" r="1.5"/>
+                <circle cx="17" cy="18" r="1.5"/>
+              </svg>
+              <span class="cart-count" data-cart-count>0</span>
+            </button>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero section">
+          <div class="container hero-grid">
+            <div class="hero-content reveal">
+              <span class="section-badge">AUTHENTIC PAKISTANI BIRYANI</span>
+              <h1>Real Biryani.<br />Real Flavor.</h1>
+              <p>
+                Fragrant basmati rice, tender chicken, aromatic spices, and our traditional cooking method come
+together to create an unforgettable Pakistani biryani experience.
+              </p>
+              <div class="hero-actions">
+                <button class="btn btn-primary" type="button" data-scroll="menu">Order Chicken Biryani</button>
+                <button class="btn btn-secondary" type="button" data-scroll="menu">Explore Menu</button>
+              </div>
+              <div class="trust-line">Freshly Cooked • Authentic Spices • Fast Delivery</div>
+            </div>
+
+            <div class="hero-visual reveal">
+              <div class="biryani-plate-wrap">
+                <div class="floating-badge floating-top">
+                  <span class="stars">★★★★★</span>
+                  <strong>4.9/5 Customer Rating</strong>
+                </div>
+                <div class="floating-badge floating-bottom">
+                  <strong>Fresh &amp; Hot</strong>
+                  <span>Made Daily</span>
+                </div>
+                <div class="hero-image-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=1000&q=80"
+                    alt="Authentic Pakistani chicken biryani served in a premium bowl"
+                    loading="eager"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="stats section-sm">
+          <div class="container stats-grid reveal">
+            <article class="stat-card">
+              <span class="stat-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M5 7h14M5 17h14"/></svg>
+              </span>
+              <div class="stat-number" data-target="10">0</div>
+              <div class="stat-label">Years of Taste</div>
+            </article>
+            <article class="stat-card">
+              <span class="stat-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="9.5" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </span>
+              <div class="stat-number" data-target="50">0</div>
+              <div class="stat-label">Happy Customers</div>
+            </article>
+            <article class="stat-card">
+              <span class="stat-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h14l-1 12H6L5 6Z"/><path d="M9 6V4a3 3 0 0 1 6 0v2"/></svg>
+              </span>
+              <div class="stat-number" data-target="100">0</div>
+              <div class="stat-label">Biryani Plates Served</div>
+            </article>
+            <article class="stat-card">
+              <span class="stat-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 17 6 3-1-7 5-5-7-1-3-6-3 6-7 1 5 5-1 7 6-3Z"/></svg>
+              </span>
+              <div class="stat-number" data-target="4.9">0</div>
+              <div class="stat-label">Customer Rating</div>
+            </article>
+          </div>
+        </section>
+
+        <section class="menu section" id="menu">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-label">Our Signature Biryani</span>
+              <h2>Our Signature Biryani</h2>
+              <p>Made fresh with premium ingredients and traditional Pakistani flavors.</p>
+            </div>
+
+            <div class="menu-grid">
+              <article class="food-card reveal" data-menu-item="Chicken Biryani" data-price="450">
+                <div class="food-image-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80"
+                    alt="Chicken biryani served with saffron rice and garnish"
+                    loading="lazy"
+                  />
+                  <button class="favorite-btn" type="button" aria-label="Add to favorites">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8.5-5.2-10.5-10.2A5.5 5.5 0 0 1 12 5.5a5.5 5.5 0 0 1 10.5 5.3C20.5 15.8 12 21 12 21Z"/></svg>
+                  </button>
+                </div>
+                <div class="food-content">
+                  <div class="food-meta">
+                    <h3>Chicken Biryani</h3>
+                    <span class="rating">★★★★★</span>
+                  </div>
+                  <p>Classic Pakistani chicken biryani prepared with fragrant basmati rice, tender chicken and aromatic spices.</p>
+                  <div class="food-footer">
+                    <strong>Rs. 450</strong>
+                    <button type="button" class="btn btn-primary btn-small add-to-cart">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="food-card reveal" data-menu-item="Chicken Biryani Family Pack" data-price="1499">
+                <div class="food-image-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80"
+                    alt="Family pack of chicken biryani with generous portions"
+                    loading="lazy"
+                  />
+                  <button class="favorite-btn" type="button" aria-label="Add to favorites">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8.5-5.2-10.5-10.2A5.5 5.5 0 0 1 12 5.5a5.5 5.5 0 0 1 10.5 5.3C20.5 15.8 12 21 12 21Z"/></svg>
+                  </button>
+                </div>
+                <div class="food-content">
+                  <div class="food-meta">
+                    <h3>Chicken Biryani Family Pack</h3>
+                    <span class="rating">★★★★★</span>
+                  </div>
+                  <p>Perfect for family gatherings, featuring generous portions of flavorful chicken and basmati rice.</p>
+                  <div class="food-footer">
+                    <strong>Rs. 1,499</strong>
+                    <button type="button" class="btn btn-primary btn-small add-to-cart">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="food-card reveal" data-menu-item="Special Chicken Biryani" data-price="550">
+                <div class="food-image-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80"
+                    alt="Special spicy chicken biryani with fried onions and fresh herbs"
+                    loading="lazy"
+                  />
+                  <button class="favorite-btn" type="button" aria-label="Add to favorites">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8.5-5.2-10.5-10.2A5.5 5.5 0 0 1 12 5.5a5.5 5.5 0 0 1 10.5 5.3C20.5 15.8 12 21 12 21Z"/></svg>
+                  </button>
+                </div>
+                <div class="food-content">
+                  <div class="food-meta">
+                    <h3>Special Chicken Biryani</h3>
+                    <span class="rating">★★★★★</span>
+                  </div>
+                  <p>Our signature spicy biryani with extra tender chicken, fried onions and special house spices.</p>
+                  <div class="food-footer">
+                    <strong>Rs. 550</strong>
+                    <button type="button" class="btn btn-primary btn-small add-to-cart">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="food-card reveal" data-menu-item="Biryani Combo" data-price="650">
+                <div class="food-image-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=900&q=80"
+                    alt="Biryani combo with raita, salad and chilled drink"
+                    loading="lazy"
+                  />
+                  <button class="favorite-btn" type="button" aria-label="Add to favorites">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8.5-5.2-10.5-10.2A5.5 5.5 0 0 1 12 5.5a5.5 5.5 0 0 1 10.5 5.3C20.5 15.8 12 21 12 21Z"/></svg>
+                  </button>
+                </div>
+                <div class="food-content">
+                  <div class="food-meta">
+                    <h3>Biryani Combo</h3>
+                    <span class="rating">★★★★★</span>
+                  </div>
+                  <p>Chicken biryani served with raita, fresh salad and a chilled drink.</p>
+                  <div class="food-footer">
+                    <strong>Rs. 650</strong>
+                    <button type="button" class="btn btn-primary btn-small add-to-cart">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="special-offer section">
+          <div class="container offer-card reveal">
+            <div class="offer-content">
+              <span class="section-label">Family Feast</span>
+              <h2>Family Biryani Feast</h2>
+              <p>Feed the whole family with our special biryani family deal.</p>
+              <ul class="offer-list">
+                <li>4 Chicken Biryani Portions</li>
+                <li>4 Raita</li>
+                <li>Fresh Salad</li>
+                <li>Cold Drinks</li>
+              </ul>
+              <div class="offer-pricing">
+                <span class="old-price">Rs. 2,200</span>
+                <span class="new-price">Rs. 1,799</span>
+              </div>
+              <button class="btn btn-primary" type="button" data-scroll="menu">Get This Deal</button>
+            </div>
+            <div class="offer-visual">
+              <img
+                src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=1200&q=80"
+                alt="Family biryani feast in a premium serving platter"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="features section" id="why-us">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-label">Why Biryani House?</span>
+              <h2>Why Biryani House?</h2>
+            </div>
+            <div class="feature-grid">
+              <article class="feature-card reveal">
+                <div class="feature-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M17 5H9a3 3 0 0 0 0 6h6a3 3 0 0 1 0 6H7"/></svg>
+                </div>
+                <h3>Authentic Recipe</h3>
+                <p>Traditional Pakistani biryani recipe prepared with carefully selected spices.</p>
+              </article>
+              <article class="feature-card reveal">
+                <div class="feature-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M3 7h18M5 17h14"/><path d="M7 2h10v4H7z"/></svg>
+                </div>
+                <h3>Fresh Ingredients</h3>
+                <p>Premium basmati rice, fresh chicken and quality ingredients in every plate.</p>
+              </article>
+              <article class="feature-card reveal">
+                <div class="feature-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h18M12 3v18"/><path d="M7 7h10v10H7z"/></svg>
+                </div>
+                <h3>Cooked Fresh</h3>
+                <p>Every order is prepared fresh to preserve the aroma and flavor.</p>
+              </article>
+              <article class="feature-card reveal">
+                <div class="feature-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13h4l2-8 4 16 2-8h6"/></svg>
+                </div>
+                <h3>Fast Delivery</h3>
+                <p>Hot and delicious biryani delivered directly to your doorstep.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="how-it-works section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-label">How It Works</span>
+              <h2>How It Works</h2>
+            </div>
+            <div class="process-grid">
+              <article class="process-step reveal">
+                <span class="step-number">01</span>
+                <h3>Choose Your Biryani</h3>
+                <p>Browse our menu and select your favorite dish.</p>
+              </article>
+              <article class="process-step reveal">
+                <span class="step-number">02</span>
+                <h3>Place Your Order</h3>
+                <p>Add your food to cart and complete checkout.</p>
+              </article>
+              <article class="process-step reveal">
+                <span class="step-number">03</span>
+                <h3>Enjoy Hot Biryani</h3>
+                <p>Receive your freshly cooked biryani at your doorstep.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="about section" id="about">
+          <div class="container about-grid">
+            <div class="about-image reveal">
+              <img
+                src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80"
+                alt="Authentic Pakistani restaurant kitchen with biryani in traditional dish"
+                loading="lazy"
+              />
+            </div>
+            <div class="about-copy reveal">
+              <span class="section-label">OUR STORY</span>
+              <h2>From Our Kitchen<br />To Your Table</h2>
+              <p>
+                Biryani House was created with one simple mission — to serve authentic Pakistani biryani made
+                with traditional flavors and quality ingredients.
+              </p>
+              <p>
+                Our chefs carefully prepare every batch using fragrant basmati rice, tender chicken, aromatic
+                spices and time-tested cooking techniques.
+              </p>
+              <button class="btn btn-primary" type="button">Learn More About Us</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="ingredients section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-label">Ingredients</span>
+              <h2>What Makes Our Biryani Special?</h2>
+            </div>
+            <div class="ingredient-grid">
+              <article class="ingredient-card reveal">
+                <span class="ingredient-icon">🍚</span>
+                <h3>Premium Basmati Rice</h3>
+              </article>
+              <article class="ingredient-card reveal">
+                <span class="ingredient-icon">🍗</span>
+                <h3>Tender Chicken</h3>
+              </article>
+              <article class="ingredient-card reveal">
+                <span class="ingredient-icon">🌼</span>
+                <h3>Saffron</h3>
+              </article>
+              <article class="ingredient-card reveal">
+                <span class="ingredient-icon">🧅</span>
+                <h3>Fried Onions</h3>
+              </article>
+              <article class="ingredient-card reveal">
+                <span class="ingredient-icon">🌿</span>
+                <h3>Fresh Mint</h3>
+              </article>
+              <article class="ingredient-card reveal">
+                <span class="ingredient-icon">🌱</span>
+                <h3>Coriander</h3>
+              </article>
+              <article class="ingredient-card reveal">
+                <span class="ingredient-icon">🌶️</span>
+                <h3>Green Chilies</h3>
+              </article>
+              <article class="ingredient-card reveal">
+                <span class="ingredient-icon">✨</span>
+                <h3>Signature Spices</h3>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="reviews section" id="reviews">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-label">Customer Reviews</span>
+              <h2>What Our Customers Say</h2>
+            </div>
+            <div class="review-grid">
+              <article class="review-card reveal">
+                <div class="review-top">
+                  <div class="avatar">AR</div>
+                  <div>
+                    <strong>Ahmed R.</strong>
+                    <span class="stars">★★★★★</span>
+                  </div>
+                </div>
+                <p>Absolutely delicious! The rice was perfectly cooked and the chicken was so tender. Easily one of the best biryanis I've had.</p>
+              </article>
+              <article class="review-card reveal">
+                <div class="review-top">
+                  <div class="avatar">FK</div>
+                  <div>
+                    <strong>Fatima K.</strong>
+                    <span class="stars">★★★★★</span>
+                  </div>
+                </div>
+                <p>The aroma, spices and portion size were amazing. The family pack was perfect for our dinner.</p>
+              </article>
+              <article class="review-card reveal">
+                <div class="review-top">
+                  <div class="avatar">UA</div>
+                  <div>
+                    <strong>Usman A.</strong>
+                    <span class="stars">★★★★★</span>
+                  </div>
+                </div>
+                <p>Fresh, hot and full of flavor. Delivery was fast too. Definitely ordering again.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="gallery section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-label">Gallery</span>
+              <h2>Food Gallery</h2>
+            </div>
+            <div class="gallery-grid reveal">
+              <figure class="gallery-item tall">
+                <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=900&q=80" alt="Chicken biryani close-up" loading="lazy" />
+              </figure>
+              <figure class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80" alt="Biryani handi" loading="lazy" />
+              </figure>
+              <figure class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1526318896980-cf78c088247c?auto=format&fit=crop&w=900&q=80" alt="Chicken pieces in biryani dish" loading="lazy" />
+              </figure>
+              <figure class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=900&q=80" alt="Crispy fried onions garnish" loading="lazy" />
+              </figure>
+              <figure class="gallery-item wide">
+                <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=1200&q=80" alt="Raita and salad side dishes" loading="lazy" />
+              </figure>
+              <figure class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=900&q=80" alt="Restaurant kitchen preparing biryani" loading="lazy" />
+              </figure>
+              <figure class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80" alt="Family dining with Pakistani food" loading="lazy" />
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="cta-banner section">
+          <div class="container cta-card reveal">
+            <div>
+              <h2>Craving Authentic Biryani?</h2>
+              <p>Don't wait. Order your favorite biryani today and enjoy restaurant-quality flavor at home.</p>
+            </div>
+            <div class="cta-actions">
+              <button class="btn btn-primary" type="button" data-scroll="menu">Order Now</button>
+              <span>Freshly cooked • Packed with care • Delivered hot</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="checkout-section section" id="checkout">
+          <div class="container checkout-shell reveal">
+            <div class="checkout-copy">
+              <span class="section-label">Online Order</span>
+              <h2>Checkout</h2>
+              <p>Complete your order and enjoy hot biryani delivered fresh to your door.</p>
+            </div>
+            <div class="checkout-form-box">
+              <form id="checkoutForm" novalidate>
+                <div class="checkout-grid">
+                  <label>
+                    <span>Full Name</span>
+                    <input type="text" name="fullName" placeholder="Your full name" required />
+                  </label>
+                  <label>
+                    <span>Phone Number</span>
+                    <input type="tel" name="phone" placeholder="03XX XXXXXXX" required />
+                  </label>
+                  <label class="full-width">
+                    <span>Delivery Address</span>
+                    <textarea name="address" rows="3" placeholder="Street, Sector, House number" required></textarea>
+                  </label>
+                  <label>
+                    <span>City</span>
+                    <input type="text" name="city" placeholder="Karachi" required />
+                  </label>
+                  <label>
+                    <span>Special Instructions</span>
+                    <input type="text" name="instructions" placeholder="Extra spicy, no onions..." />
+                  </label>
+                </div>
+
+                <div class="payment-box">
+                  <h3>Payment Options</h3>
+                  <div class="payment-options">
+                    <label class="radio-option">
+                      <input type="radio" name="payment" value="Cash on Delivery" checked />
+                      <span>Cash on Delivery</span>
+                    </label>
+                    <label class="radio-option">
+                      <input type="radio" name="payment" value="Online Payment" />
+                      <span>Online Payment</span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="summary-box">
+                  <h3>Order Summary</h3>
+                  <div class="summary-row"><span>Items</span><span id="summaryItems">0</span></div>
+                  <div class="summary-row"><span>Subtotal</span><span id="summarySubtotal">Rs. 0</span></div>
+                  <div class="summary-row"><span>Delivery</span><span id="summaryDelivery">Rs. 250</span></div>
+                  <div class="summary-row total"><span>Total</span><span id="summaryTotal">Rs. 250</span></div>
+                </div>
+
+                <button class="btn btn-primary submit-order" type="submit">Place Order</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact section" id="contact">
+          <div class="container contact-grid">
+            <div class="contact-info reveal">
+              <span class="section-label">Contact</span>
+              <h2>Visit or Contact Us</h2>
+              <ul class="contact-list">
+                <li><strong>Phone:</strong> +92 XXX XXXXXXX</li>
+                <li><strong>WhatsApp:</strong> +92 XXX XXXXXXX</li>
+                <li><strong>Email:</strong> hello@biryanihouse.com</li>
+                <li><strong>Address:</strong> Main Food Street, Karachi, Pakistan</li>
+                <li><strong>Opening Hours:</strong> Monday – Sunday<br />11:00 AM – 11:00 PM</li>
+              </ul>
+              <div class="contact-buttons">
+                <a class="btn btn-primary" href="tel:+92XXX XXXXXXX">Call Now</a>
+                <a class="btn btn-secondary" href="https://wa.me/92XXXXXXXXXX" target="_blank" rel="noreferrer">WhatsApp</a>
+              </div>
+            </div>
+            <div class="map-panel reveal" aria-label="Map placeholder for Karachi location">
+              <div class="map-overlay">
+                <span>Map</span>
+                <strong>Karachi, Pakistan</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <div class="footer-brand">
+            <div class="brand footer-brand-row">
+              <span class="brand-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <path d="M20 30c0-9 6-14 12-14 7 0 12 5 12 14 0 10-6 19-12 19s-12-9-12-19Zm20 0c0-7-4-10-8-10s-8 3-8 10c0 8 4 15 8 15s8-7 8-15Zm-4 5h-8v7c0 3 2 5 4 5s4-2 4-5v-7Zm-4-18c-1 0-2 1-2 2s1 2 2 2 2-1 2-2-1-2-2-2Z"/>
+                </svg>
+              </span>
+              <span class="brand-text">Biryani House</span>
+            </div>
+            <p>Authentic Taste. Perfectly Spiced.</p>
+          </div>
+
+          <div>
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#top">Home</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Menu</h3>
+            <ul>
+              <li><a href="#menu">Chicken Biryani</a></li>
+              <li><a href="#menu">Family Pack</a></li>
+              <li><a href="#menu">Special Biryani</a></li>
+              <li><a href="#menu">Combos</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="tel:+92XXX XXXXXXX">Phone</a></li>
+              <li><a href="https://wa.me/92XXXXXXXXXX" target="_blank" rel="noreferrer">WhatsApp</a></li>
+              <li><a href="mailto:hello@biryanihouse.com">Email</a></li>
+              <li><span>Location</span></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Social</h3>
+            <ul>
+              <li><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+              <li><a href="https://facebook.com" target="_blank" rel="noreferrer">Facebook</a></li>
+              <li><a href="https://tiktok.com" target="_blank" rel="noreferrer">TikTok</a></li>
+              <li><a href="https://youtube.com" target="_blank" rel="noreferrer">YouTube</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
+            <p>© 2026 Biryani House. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <aside class="cart-drawer" aria-label="Shopping cart" aria-hidden="true">
+      <div class="drawer-header">
+        <div>
+          <span class="section-label">Your Cart</span>
+          <h3>Order Summary</h3>
+        </div>
+        <button class="close-cart" type="button" aria-label="Close cart">×</button>
+      </div>
+
+      <div class="cart-body">
+        <div class="empty-cart" data-empty-state>
+          <p>Your cart is empty.</p>
+          <button class="btn btn-primary" type="button" data-scroll="menu">Browse Menu</button>
+        </div>
+
+        <div class="cart-items" data-cart-items></div>
+      </div>
+
+      <div class="cart-footer">
+        <div class="totals">
+          <div class="summary-row"><span>Subtotal</span><span data-subtotal>Rs. 0</span></div>
+          <div class="summary-row"><span>Delivery</span><span data-delivery>Rs. 250</span></div>
+          <div class="summary-row total"><span>Grand Total</span><span data-total>Rs. 250</span></div>
+        </div>
+        <button class="btn btn-primary cart-checkout" type="button">Checkout</button>
+      </div>
+    </aside>
+
+    <div class="drawer-backdrop" aria-hidden="true"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
